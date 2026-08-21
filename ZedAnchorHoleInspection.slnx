@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/ZedAnchorHoleInspection/ZedAnchorHoleInspection.csproj" />
+  <Project Path="tests/ZedAnchorHoleInspection.SelfTest/ZedAnchorHoleInspection.SelfTest.csproj" />
+</Solution>
+
