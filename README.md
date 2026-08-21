@@ -116,8 +116,7 @@ dotnet run --project .\tests\ZedAnchorHoleInspection.SelfTest\ZedAnchorHoleInspe
 - 콘크리트 얼룩, 검은 페인트, 원형 볼트 머리도 RGB 후보가 될 수 있습니다. XYZ 평면·내부 검증으로 줄이지만 실제 데이터 없이 완전히 제거할 수 없습니다.
 - 홀 가장자리가 깨졌거나 가려졌거나, 카메라가 표면을 매우 비스듬히 보면 원형 점수가 낮아질 수 있습니다.
 - 실제 검출률과 치수 정확도는 거리, 조명, 콘크리트 질감, 홀 직경, 베이스라인 방향 및 ZED depth mode에 따라 달라집니다. 현장 RGB+SVO 데이터로 튜닝해야 합니다.
-- 로봇 좌표는 출력하지 않습니다. 카메라 XYZ를 로봇 베이스 좌표로 바꾸려면 hand-eye/extrinsic 캘리브레이션이 별도로 필요합니다.
-- 안전 관련 로봇 정지·천공 허가는 이 비전 결과 하나만으로 결정하면 안 됩니다. PLC/로봇 측 검증과 안전 인터록이 필요합니다.
+- **Plotting Camera Local Coordinate only.**
 
 ## 프로젝트 구조
 
