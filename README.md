@@ -1,6 +1,7 @@
 # ZED 2i Anchor Hole Inspection
 
 ZED 2i 카메라 영상에서 앙카홀을 검출하고 위치 정보를 표시하는 C# WPF 프로그램입니다.
+
 <img width="2560" height="1552" alt="image" src="https://github.com/user-attachments/assets/46f49558-0cf4-4615-8af7-1e71a2bf6a4c" />
 <프로그램 화면>
 
